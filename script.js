@@ -1,4 +1,6 @@
-const apikey = "09e68427006643b2c2aa297329deeda3";
+const env = require('./env')
+
+const apikey = env.apikey;
 const apiUrl =
   "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
